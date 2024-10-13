@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: arial;
-}
+
 
 /* Navbar Styling Start */
 /* .navbar{
@@ -517,3 +513,45 @@ footer {
 }
 
 /* Footer Styling End */
+
+.hamburg{
+  display: none;
+}
+
+
+@media(max-width:850px){
+  #dropdownmenu{
+    display: none;
+  }
+  .hamburg{
+    display: block;
+
+  }
+  body{
+    width: 100%;
+  }
+   .homepage-intro-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+   }
+   .banner{
+    width: 100%;
+   }
+   .how-to-adopt-pet{
+    width: 100%;
+   }
+   .cat-for-homepage-bottom{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: auto;
+   }
+
+   .pawpic{
+    width: 20%;
+    height: auto;
+   }
+  
+
+}
