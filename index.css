@@ -389,5 +389,55 @@ footer {
     color: gray;
     font-size: 1.2rem;
   }
+
+  .hamburg{
+    display: none;
+  }
+
+  
+
   
   /* Footer Styling End */
+  
+  @media(max-width:850px){
+    #dropdownmenu{
+      display: none;
+    }
+    .hamburg{
+      display: block;
+
+    }
+    body{
+      width: 100%;
+    }
+     .homepage-intro-container{
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 0;
+     }
+
+
+    
+  }
+
+  @media(max-width:600px){
+    body{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+    .homepage-intro-container{
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+
+    }
+
+    .footer-icons-div{
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+  }

@@ -417,3 +417,28 @@ footer {
   }
   
   /* Footer Styling End */
+
+  .hamburg{
+    display: none;
+  }
+
+  @media(max-width:850px){
+    #dropdownmenu{
+      display: none;
+    }
+    .hamburg{
+      display: block;
+
+    }
+    body{
+      width: 100%;
+    }
+     .homepage-intro-container{
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 0;
+     }
+
+
+    
+  }
