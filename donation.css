@@ -93,10 +93,7 @@ nav {
 
 .donation-banner {
     width: 100%;
-    height: 37rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 36rem;
     position: relative;
 }
 
@@ -117,7 +114,7 @@ nav {
 .donation-banner-img {
     opacity: 0.8;
     width: 100%;
-    height: 31rem;
+    height: 100%;
 }
 
 

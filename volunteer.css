@@ -95,9 +95,6 @@ nav {
 .volunteer-banner {
   width: 100%;
   height: 31rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
 }
 
@@ -118,7 +115,7 @@ nav {
 .volunteer-banner-img {
   opacity: 0.8;
   width: 100%;
-  height: 31rem;
+  height: 100%;
 }
 
 /* Banner Styling End */
