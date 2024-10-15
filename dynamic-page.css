@@ -20,14 +20,14 @@ nav {
 
 .navbar .logo img {
     width: 12rem !important;
-    height: 9rem !important;
-    /* padding-top: 5px !important; */
+    height: 8rem !important;
+    padding-top: 5px !important;
     padding-bottom: 3rem;
 }
 
 .navbar ul {
     list-style: none !important;
-    margin-bottom: 4rem;
+    margin-bottom: 3.1rem;
 }
 
 .navbar ul li {
@@ -96,6 +96,9 @@ nav {
 .adopt-a-cat-banner {
     width: 100% !important;
     height: 31rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
     position: relative !important;
 }
 
@@ -458,6 +461,7 @@ footer {
       display: block;
       padding: 10px;
       border-bottom: 1px solid #ddd;
+      background-color: #2b2a2a;
   }
 
   .navbar ul li a {
@@ -475,4 +479,38 @@ footer {
   }
 
     
+  }
+
+  @media(max-width:650px){
+
+    .footer-icons-div{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-links{
+
+      display: none;
+    }
+
+    #hidden-link{
+      display: none;
+    }
+
+    .footer-icons{
+      width: o.25rem;
+      height: 0.5rem;
+    }
+    
+    .foot-txt{
+      font-size: small;
+    }
+
+     .foot-adj{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
+
   }
